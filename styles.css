@@ -1,0 +1,137 @@
+
+img {
+    height: 150px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #dc143c;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #cbd8c1;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.664);
+    font-size: 16px;
+}
+
+button {
+    width: 50%;
+    background: #a30008c5;
+    color: #fffff7;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: 0.5s; /* Causa um efeito de transição */
+}
+
+button:hover { /* O hover é para mudar a cor do botão ao passar o mouse sobre ele */
+    background: rgb(55, 129, 129);
+}
+
+#resultado {
+    margin-left: 40px;
+    max-width: 300px;
+    margin-top: 10px;
+    background-color: #e7e4d5;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#apagar {
+    background-color: #000;
+    margin-top: 10px;
+}
+
+#apagar:hover { /* O hover é para mudar a cor do botão ao passar o mouse sobre ele */
+    background: rgb(143, 143, 143);
+}
+
+#taxa-dolar {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #807b72fd;
+}
+
+#alert {
+    align-items: center;
+    position: relative;
+}
+
+.corpo {
+    background-color: rgba(173, 216, 230, 0.411);
+    border-radius: 25px;
+    max-width: 450px;
+    height: 530px;
+    position: fixed;
+    z-index: -1;
+    margin-top: -180px;
+    padding: 50px;
+    box-shadow: 2px 2px 10px rgba(6, 9, 59, 0.664);
+}
+
+/* Estilo para o modal. Modal é uma caixa de diálogo que será exibida na tela inteira.*/
+.modal {
+    display: none; /* Inicialmente escondido */
+    position: absolute; /* Fica na tela inteira */
+    z-index: 1; /* Fica na frente de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Permite rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Fundo semi-transparente */
+}
+
+/* Estilo da caixa do modal. Aqui é a caixa que fica no centro da tela, ou seja, a caixa menor. */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% do topo e centralizado */
+    padding: 5px;
+    border: 1px solid #888;
+    border-radius: 30px;
+    width: 30%; /* Largura da caixa do modal */
+}
+
+/* Botão de fechar */
+.close {
+    color: #aaa;
+    float: right; /* Alinhado à direita */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Muda a cor ao passar o mouse */
+    text-decoration: none;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.like {
+    width: 70px;
+    height: 70px;
+        
+}

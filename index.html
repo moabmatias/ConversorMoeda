@@ -1,0 +1,40 @@
+<!--Adaptado da live 75 do dia 24/03/2025-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <img src="./assets/dolarreal.png">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <div class="corpo">Adaptado da Live 75 por Moab Matias</div> <!--Retângulo que envolve todo o conteúdo-->
+
+    <h1>Conversor de Dólar para Real</h1><!--Título do conetúdo-->
+
+    <label for="valor">Digite o valor em Dólar ($):</label><!--Frase acima de meu imput-->
+    <input type="number" id="valor" placeholder="Exemplo: 100"><!--Caixa de texto-->
+
+    <button id="converter" onclick="converter(); abrirModal()">Clique para Converter</button><!--Botão converter com a função converter-->
+    <div id="resultado">Valor em Reais</div> <!--Espaço onde é mostrado o valor convertido-->
+    <button id="apagar"  onclick="recarregarPagina()">Clique para Apagar</button> <!--Botão apagar valor convertido-->
+    <div id="taxa-dolar">Taxa atual: 1 Dólar = 6 Reais</div> <!--Texto com a informação da taxa atual do dólar-->
+
+     <!-- Estrutura do Modal -->
+     <div id="meuModal" class="modal">
+        <div class="modal-content">
+            <img class="like"; src="./assets/gostar.gif">
+            <p>Parabéns! Valor convertido com sucesso!</p>
+            <button class="close-btn" onclick="fecharModal()">Fechar</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script> <!--Aqui chama o arquivo Java Script-->
+
+</html>
