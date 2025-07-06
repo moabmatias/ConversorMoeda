@@ -45,14 +45,14 @@ button {
 }
 
 button:hover { /* O hover é para mudar a cor do botão ao passar o mouse sobre ele */
-    background: rgb(55, 129, 129);
+    background: rgb(110, 146, 146);
 }
 
 #resultado {
     margin-left: 40px;
     max-width: 300px;
     margin-top: 10px;
-    background-color: #e7e4d5;
+    background-color: #f3eed4;
     padding: 15px;
     border-radius: 6px;
     font-size: 20px;
