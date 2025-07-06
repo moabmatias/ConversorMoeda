@@ -110,7 +110,7 @@ button:hover { /* O hover é para mudar a cor do botão ao passar o mouse sobre 
     background-color: #fefefe;
     margin: 15% auto; /* 15% do topo e centralizado */
     padding: 5px;
-    border: 1px solid #888;
+    border: 1px solid #8b8181;
     border-radius: 30px;
     width: 30%; /* Largura da caixa do modal */
 }
